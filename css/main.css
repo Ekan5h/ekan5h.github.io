@@ -446,6 +446,11 @@ footer a{
         margin-right: 0px;
         font-size: 0.9em;
     }
+
+    #terminal{
+        font-size: 0.7em;
+    }
+
     nav ul li::after{
         color:gray;
         content: ' |';
