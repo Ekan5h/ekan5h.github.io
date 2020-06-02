@@ -431,3 +431,24 @@ footer a{
     }
     
 }
+
+@media only screen and (max-width: 450px) {
+    .title h1{
+        font-size: 1.5em;
+    }
+    nav ul li{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    nav ul li{
+        margin-right: 0px;
+        font-size: 0.9em;
+    }
+    nav ul li::after{
+        color:gray;
+        content: ' |';
+    }
+    
+}
