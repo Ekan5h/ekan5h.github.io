@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="icon" type="image/svg" href="images/head.svg"/>
+        <title>Ekansh Mahendru | Portfolio</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <span id="navbg">
+                    <img src="images/nav.svg">
+                </span>
+                <ul>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="https://drive.google.com/file/d/1p8ABGATsrXgcUASue5clOLjw7HUttF93/" target="_blank_">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </nav>
+            <div class="heading">
+                Hi, I am<h1>Ekansh Mahendru</h1>
+            </div>
+            <div class="character">
+                <img src="images/torso.svg" id="torso">
+                <img src="images/head.svg" id="head">
+                <img src="images/hand.svg" id="hand">
+                <img src="images/table.svg" id="table">
+            </div>
+            <img class="bottomwave" src="images/bottom.svg">
+        </div>
+        <div class="page" id="interests">
+            <center>
+                <div id="titlebar">
+                    <div class="circle" style="background-color: tomato;"></div>
+                    <div class="circle" style="background-color: yellow;"></div>
+                    <div class="circle" style="background-color: lawngreen;"></div>
+                    
+                </div>
+                <div id="terminal">
+                    
+                </div>
+            </center>
+        </div>
+        <div class="tabs" id="projects">
+            <img src="images/bottom.svg" id="topwave">
+            <div id="window">
+                <div class="tab" onmouseover="clearInterval(slideshow)" onmouseout="startSlides()">
+                    <div class="photo">
+                        <img class = "bg" src="images/project1.jpeg">
+                        <a href="https://github.com/Ekan5h/LIDARtoolkit" target="_blank_"><img src="images/project1.jpeg"></a>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h1>LIDARtoolkit</h1>
+                            A python toolkit/library for simplifying LIDAR point cloud processing and rapid prototyping.                        </div>
+                    </div>
+                    <div class="downarrow" onclick="nextSlide()"></div>
+                </div>
+                <div class="tab" onmouseover="clearInterval(slideshow)" onmouseout="startSlides()">
+                    <div class="uparrow " onclick="prevSlide()"></div>
+                    <div class="photo">
+                        <img class = "bg" src="images/project3.jpeg">
+                        <a href="https://github.com/Ekan5h/TextSegmentation" target="_blank_"><img src="images/project3.jpeg"></a>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h1>Text Segmentation</h1>
+                            Using Otsu's thresholding for text segmentation on images of sticky notes.
+                        </div>
+                    </div>
+                    <div class="downarrow" onclick="nextSlide()"></div>
+                </div>
+                <div class="tab" onmouseover="clearInterval(slideshow)" onmouseout="startSlides()">
+                    <div class="uparrow " onclick="prevSlide()"></div>
+                    <div class="photo">
+                        <img class = "bg" src="images/project4.gif">
+                        <a href="https://github.com/Ekan5h/Face-Morphing" target="_blank_"><img src="images/project4.gif"></a>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h1>Face Morphing</h1>
+                            Matlab code to create a gif of morphing one face into another.
+                        </div>
+                    </div>
+                    <div class="downarrow" onclick="nextSlide()"></div>
+                </div>
+                <div class="tab" onmouseover="clearInterval(slideshow)" onmouseout="startSlides()">
+                    <div class="uparrow " onclick="prevSlide()"></div>
+                    <div class="photo">
+                        <img class = "bg" src="images/project2.png">
+                        <a href="https://github.com/Ekan5h/RayTracingJS" target="_blank_"><img src="images/project2.png"></a>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h1>Ray Tracing</h1>
+                            Implementation of recursive ray tracing algorithm using p5.js library available at <a href="Ekan5h.github.io/RayTracingJS">Ekan5h.github.io/RayTracingJS</a>
+                        </div>
+                    </div>
+                    <div class="downarrow" onclick="nextSlide()"></div>
+                </div>
+                <div class="tab" onmouseover="clearInterval(slideshow)" onmouseout="startSlides()">
+                    <div class="uparrow " onclick="prevSlide()"></div>
+                    <div class="photo">
+                        <img class = "bg" src="images/project5.png">
+                        <a href="https://github.com/Ekan5h/TermIDE/" target="_blank_"><img src="images/project5.png"></a>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h1>TermIDE</h1>
+                            A customisable Integrated Development Environment for the terminal made with C++ and ncurses.
+                        </div>
+                    </div>
+                    <div class="downarrow" onclick="nextSlide()"></div>
+                </div>
+                <div class="tab" onmouseover="clearInterval(slideshow)" onmouseout="startSlides()">
+                    <div class="uparrow " onclick="prevSlide()"></div>
+                    <div class="photo">
+                        <img class = "bg" src="images/project6.png">
+                        <a href="https://github.com/Ekan5h/RISC-V-ISA-Simulator" target="_blank_"><img src="images/project6.png"></a>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h1>RISC-V ISA Simulator</h1>
+                            Implementation of recursive ray tracing algorithm using p5.js library available at <a href="Ekan5h.github.io/RayTracingJS">Ekan5h.github.io/RayTracingJS</a>
+                        </div>
+                    </div>
+                    <div class="downarrow" onclick="nextSlide()"></div>
+                </div>
+            </div>
+            <img src="images/bottom.svg" class="bottomwave">
+        </div>
+        <div class="page" style="min-height: 0px;" id="contact">
+            <center>
+                <h1>Contact Me</h1>
+                <a href="http://linkedin.com/in/ekan5h"><img src="images/linkedin.png"></a>
+                <a href="mailto:2018csb1087@iitrpr.ac.in"><img src="images/gmail.png"></a>
+                <a href="https://twitter.com/Ekansh_Mahendru"><img src="images/twitter.png"></a>
+            </center>
+        </div>
+        <footer>
+            A website by <a href = "https://github.com/Ekan5h">Ekansh Mahendru</a>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>

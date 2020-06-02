@@ -1,0 +1,17 @@
+<svg width="301.89473684210526" height="617.157894736842" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
+ <defs>
+  <path id="a3ZVRMsW9" d="m100,-4.21l297.89,0l0,613.16l-297.89,0l0,-613.16z"/>
+  <linearGradient y2="0.775099" x2="-0.040653" y1="0.003425" x1="1" id="gradientb6yLVMhWDV">
+   <stop stop-color="#7bc9d1" offset="0%"/>
+   <stop stop-color="#32577a" offset="100%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_1">
+   <g stroke="null" id="svg_2">
+    <use stroke="null" transform="matrix(1.0716147422790527,0,0,1.0152217149734497,0.02652387744092266,0.0031965607250867833) " x="-100.37037" y="4" id="svg_3" fill="url(#gradientb6yLVMhWDV)" xlink:href="#a3ZVRMsW9"/>
+   </g>
+  </g>
+ </g>
+</svg>
