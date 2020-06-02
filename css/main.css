@@ -389,7 +389,7 @@ footer a{
     }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 770px) {
     .heading{
         transform: translate(-50%, -50%);
     }
@@ -439,16 +439,26 @@ footer a{
     nav ul li{
         margin-right: 10px;
     }
+    #terminal{
+        margin-left:-11.5%;
+    }
+    #titlebar{
+        margin-left: -11.5%;
+    }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
     nav ul li{
         margin-right: 0px;
-        font-size: 0.9em;
+        font-size: 1.05em;
     }
 
     #terminal{
-        font-size: 0.7em;
+        margin-left:-13%;
+        font-size: 0.75em;
+    }
+    #titlebar{
+        margin-left: -13%;
     }
 
     nav ul li::after{
