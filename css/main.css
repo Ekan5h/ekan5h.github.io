@@ -232,6 +232,8 @@ nav #navbg img{
     border-radius: 20px;
     overflow: hidden;
     pointer-events: none;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
     opacity:0.5;
     z-index: -1;
 }
