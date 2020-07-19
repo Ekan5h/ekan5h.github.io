@@ -8,7 +8,7 @@ function startTyping(){
     outputs = [
         "<font color='tomato'><b>cat: intrests.txt: No such file or directory</b></font>",
         "<font color='cyan'>source-code&nbsp;&nbsp;&nbsp; byte-of-87&nbsp;&nbsp;&nbsp;</font> interests.txt",
-        "<pre>  _____       _                     _       <br> |_   _|     | |                   | |      <br>   | |  _ __ | |_ ___ _ __ ___  ___| |_ ___ <br>   | | | '_ \\| __/ _ \\ '__/ _ \\/ __| __/ __|<br>  _| |_| | | | ||  __/ | |  __/\\__ \\ |_\\__ \\<br> |_____|_| |_|\\__\\___|_|  \\___||___/\\__|___/</pre><br><b>* Computer Vision<br>* Machine Learning<br>* API Design<br>* Web Development</b><br><br>"
+        "<pre>  _____       _                     _       <br> |_   _|     | |                   | |      <br>   | |  _ __ | |_ ___ _ __ ___  ___| |_ ___ <br>   | | | '_ \\| __/ _ \\ '__/ _ \\/ __| __/ __|<br>  _| |_| | | | ||  __/ | |  __/\\__ \\ |_\\__ \\<br> |_____|_| |_|\\__\\___|_|  \\___||___/\\__|___/</pre><br><b>* Computer Vision<br>* Image Processing<br>* Machine Learning<br>* Web Development</b><br><br>"
     ];
     endl = "<br><font color=\"lime\"><b>ekan5h@github</b></font> <font color=\"cyan\">~ $ </font>"; 
     i=0;
@@ -113,3 +113,15 @@ document.onkeydown = function(evt) {
             break;
     }
 };
+
+var tabs = document.querySelectorAll(".tab");
+
+for(var i=0; i<tabs.length; i++){
+    let title = tabs[i].querySelector('h1');
+    let link = tabs[i].querySelector('a');
+    title.innerHTML = "<a target='_blank_' href = '"+link.href+"'>"+title.innerHTML+"</a>";
+}
+
+window.onload = () => {
+    document.getElementById("overlay").style.display = "none";
+}
