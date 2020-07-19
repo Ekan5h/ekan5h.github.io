@@ -404,7 +404,9 @@ footer a{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+.aboutme{
+    max-width: 80%;
+}
 .title h1{
     font-size: 2em;
     color: black;
@@ -438,6 +440,9 @@ footer a{
     #terminal{
         width: 90%;
     }
+    .aboutme{
+        max-width: 90%;
+    }
     #titlebar{
         width: 90%;
     }
@@ -468,7 +473,9 @@ footer a{
         width:110%;
         margin-left: -10%;    
     }
-    
+    .aboutme{
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
