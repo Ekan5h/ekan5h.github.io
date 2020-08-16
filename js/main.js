@@ -122,6 +122,6 @@ for(var i=0; i<tabs.length; i++){
     title.innerHTML = "<a target='_blank_' href = '"+link.href+"'>"+title.innerHTML+"</a>";
 }
 
-window.onload = () => {
-    document.getElementById("overlay").style.display = "none";
-}
+// window.onload = () => {
+document.getElementById("overlay").style.display = "none";
+// }
