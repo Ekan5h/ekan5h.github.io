@@ -1,3 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+body, html {
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+  height: 200vh;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, .45);  
+  backdrop-filter: blur(10px);
+  z-index: 100000;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-color: #fff;
+}
+
+.iam {
+  color: #000;
+  display: block;
+  position: absolute;
+  font-size: 70px;
+  left: 10vw;
+  top: 50vh;
+  transform: translate(0, -50%);
+}
+
+.descr {
+  font-size: 50px;
+  color: #999;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+}
+
+.boldem {
+  font-size: 80px;
+  font-weight: bolder;
+  margin-left: -2px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.rightimg {
+  display: block;
+  position: absolute;
+  top: 50vh;
+  right: 10vw;
+  height: 70vh;
+  transform: translate(0, -50%);
+}
+/* 
+Illustration by <a href="https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb6">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a> */
+
 body, html{
     height: 100%;
     width: 100%;
@@ -7,10 +90,13 @@ body, html{
 }
 
 body{
-    background: url('../images/bg.svg') no-repeat;
-    background-size: cover;
+    /* background: url('../images/bg.svg') no-repeat; */
+    /* background-size: cover; */
+    background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .overlay{
@@ -101,12 +187,12 @@ load{
     }
 }
 
-.header{
+/* .header{
     position: relative;
     height: 110vh;
     width:100%;
     margin-bottom: 0px;
-}
+} */
 
 .heading{
     position: absolute;
@@ -149,8 +235,8 @@ nav{
 nav ul{
     display: block;
     position: absolute;
-    right:20px;
-    margin-top: 30px;
+    right:40px;
+    margin-top: 25px;
     list-style: none;
 }
 
@@ -185,6 +271,7 @@ nav #navbg img{
     background-color: #fff;
     color:gray;
 }
+
 
 .page h1::before,.page h1::after {
     display: inline-block;
@@ -256,7 +343,7 @@ nav #navbg img{
     width: 100%;
     display: block;
     position: relative;
-    background: url('../images/bg.svg') no-repeat;
+    /* background: url('../images/bg.svg') no-repeat; */
     background-size: cover;
     overflow: hidden;
 }
